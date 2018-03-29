@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #Chucky_Bot
-
+#putra_banten
 import LINETCR
 from LINETCR.lib.curve.ttypes import *
 from datetime import datetime
