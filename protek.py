@@ -10,16 +10,16 @@ from googletrans import Translator
 from gtts import gTTS
 import time,random,sys,json,codecs,threading,glob,urllib,urllib2,urllib3,re,ast,os,subprocess,requests,tempfile
 
-cl = LINETCR.LINE()
+#cl = LINETCR.LINE()
 #cl.login(qr=True)
-cl.login(token='token')
-cl.loginResult()
+#cl.login(token='token')
+#cl.loginResult()
 print "Cl-Login Success\n"
 
-ki = LINETCR.LINE()
+#ki = LINETCR.LINE()
 #ki.login(qr=True)
-ki.login(token='token')
-ki.loginResult()
+#ki.login(token='token')
+#ki.loginResult()
 print "Ki-Login Success\n"
 
 kk = LINETCR.LINE()
@@ -28,28 +28,28 @@ kk.login(token='token')
 kk.loginResult()
 print "Kk-Login Success\n"
 
-kc = LINETCR.LINE()
+#kc = LINETCR.LINE()
 #kc.login(qr=True)
-kc.login(token='token')
-kc.loginResult()
+#kc.login(token='token')
+#kc.loginResult()
 print "Kc-Login Success\n"
 
-kr = LINETCR.LINE()
+#kr = LINETCR.LINE()
 #kr.login(qr=True)
-kr.login(token='token')
-kr.loginResult()
+#kr.login(token='token')
+#kr.loginResult()
 print "Kr-Login Success\n"
 
-vipro = LINETCR.LINE() #(isi dengan akun utama fungsinya biar akun utama di kick langsung di invite bot)
+#vipro = LINETCR.LINE() #(isi dengan akun utama fungsinya biar akun utama di kick langsung di invite bot)
 #vipro.login(qr=True)
-vipro.login(token='token')
-vipro.loginResult()
+#vipro.login(token='token')
+#vipro.loginResult()
 print "Vipro-Login Success\n"
 
-km = LINETCR.LINE() #(bot ini di luar grup fungsinya jadi algojo kaya kicker siri)
+#km = LINETCR.LINE() #(bot ini di luar grup fungsinya jadi algojo kaya kicker siri)
 #km.login(qr=True)
-km.login(token='token')
-km.loginResult()
+#km.login(token='token')
+#km.loginResult()
 print "Km-Login Success\n\n=====[Sukses All Login]====="
 
 reload(sys)
@@ -310,29 +310,29 @@ protectMessage ="""
 """
 
 
-KAC=[cl,ki,kk,kc,kr,km,vipro]
-mid = cl.getProfile().mid
-Amid = ki.getProfile().mid
+KAC=[kk]
+#mid = cl.getProfile().mid
+#Amid = ki.getProfile().mid
 Bmid = kk.getProfile().mid
-Cmid = kc.getProfile().mid
-Dmid = kr.getProfile().mid
-Emid = km.getProfile().mid
+#Cmid = kc.getProfile().mid
+#Dmid = kr.getProfile().mid
+#Emid = km.getProfile().mid
 Fmid = vipro.getProfile().mid
 Bots=[mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,"uda936836a9869eb86ec8ab992a4e8979"]
 Creator=["uda936836a9869eb86ec8ab992a4e8979"]
 admin=["uda936836a9869eb86ec8ab992a4e8979"]
 
-contact = cl.getProfile()
-backup1 = cl.getProfile()
-backup1.displayName = contact.displayName
-backup1.statusMessage = contact.statusMessage                        
-backup1.pictureStatus = contact.pictureStatus
+#contact = cl.getProfile()
+#backup1 = cl.getProfile()
+#backup1.displayName = contact.displayName
+#backup1.statusMessage = contact.statusMessage                        
+#backup1.pictureStatus = contact.pictureStatus
 
-contact = ki.getProfile()
-backup2 = ki.getProfile()
-backup2.displayName = contact.displayName
-backup2.statusMessage = contact.statusMessage                        
-backup2.pictureStatus = contact.pictureStatus
+#contact = ki.getProfile()
+#backup2 = ki.getProfile()
+#backup2.displayName = contact.displayName
+#backup2.statusMessage = contact.statusMessage                        
+#backup2.pictureStatus = contact.pictureStatus
 
 contact = kk.getProfile()
 backup3 = kk.getProfile()
@@ -340,23 +340,23 @@ backup3.displayName = contact.displayName
 backup3.statusMessage = contact.statusMessage                        
 backup3.pictureStatus = contact.pictureStatus
 
-contact = kc.getProfile()
-backup4 = kc.getProfile()
-backup4.displayName = contact.displayName
-backup4.statusMessage = contact.statusMessage                        
-backup4.pictureStatus = contact.pictureStatus
+#contact = kc.getProfile()
+#backup4 = kc.getProfile()
+#backup4.displayName = contact.displayName
+#backup4.statusMessage = contact.statusMessage                        
+#backup4.pictureStatus = contact.pictureStatus
 
-contact = kr.getProfile()
-backup5 = kr.getProfile()
-backup5.displayName = contact.displayName
-backup5.statusMessage = contact.statusMessage                        
-backup5.pictureStatus = contact.pictureStatus
+#contact = kr.getProfile()
+#backup5 = kr.getProfile()
+#backup5.displayName = contact.displayName
+#backup5.statusMessage = contact.statusMessage                        
+#backup5.pictureStatus = contact.pictureStatus
 
-responsename = cl.getProfile().displayName
-responsename2 = ki.getProfile().displayName
+#responsename = cl.getProfile().displayName
+#responsename2 = ki.getProfile().displayName
 responsename3 = kk.getProfile().displayName
-responsename4 = kc.getProfile().displayName
-responsename5 = kr.getProfile().displayName
+#responsename4 = kc.getProfile().displayName
+#responsename5 = kr.getProfile().displayName
 
 
 wait = {
@@ -682,11 +682,11 @@ def bot(op):
                 try:
                     if cctv['cyduk'][op.param1]==True:
                         if op.param1 in cctv['point']:
-                            Name = cl.getContact(op.param2).displayName
-                            Name = ki.getContact(op.param2).displayName
+                            #Name = cl.getContact(op.param2).displayName
+                            #Name = ki.getContact(op.param2).displayName
                             Name = kk.getContact(op.param2).displayName
-                            Name = kc.getContact(op.param2).displayName
-                            Name = kr.getContact(op.param2).displayName
+                            #Name = kc.getContact(op.param2).displayName
+                            #Name = kr.getContact(op.param2).displayName
                             if Name in cctv['sidermem'][op.param1]:
                                 pass
                             else:
@@ -949,10 +949,10 @@ def bot(op):
                                 wait["blacklist"][op.param2] = True
                     G = ki.getGroup(op.param1)
                     G.preventJoinByTicket = False
-                    ki.updateGroup(G)
+                    #ki.updateGroup(G)
                     Ti = ki.reissueGroupTicket(op.param1)
                     cl.acceptGroupInvitationByTicket(op.param1,Ti)
-                    ki.acceptGroupInvitationByTicket(op.param1,Ti)
+                    #ki.acceptGroupInvitationByTicket(op.param1,Ti)
                     kk.acceptGroupInvitationByTicket(op.param1,Ti)
                     kc.acceptGroupInvitationByTicket(op.param1,Ti)
                     kr.acceptGroupInvitationByTicket(op.param1,Ti)
