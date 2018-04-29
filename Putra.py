@@ -12,41 +12,41 @@ import time,random,sys,json,codecs,threading,glob,urllib,urllib2,urllib3,re,ast,
 
 cl = LINETCR.LINE()
 #cl.login(qr=True)
-cl.login(token='token')
+#cl.login(token='token')
 cl.loginResult()
 print "Cl-Login Success\n"
 
 ki = LINETCR.LINE()
 #ki.login(qr=True)
-ki.login(token='token')
+#ki.login(token='token')
 ki.loginResult()
 print "Ki-Login Success\n"
 
 kk = LINETCR.LINE()
 #kk.login(qr=True)
-kk.login(token='token')
+#kk.login(token='token')
 kk.loginResult()
 print "Kk-Login Success\n"
 
 kc = LINETCR.LINE()
 #kc.login(qr=True)
-kc.login(token='token')
+#kc.login(token='token')
 kc.loginResult()
 print "Kc-Login Success\n"
 
 kr = LINETCR.LINE()
 #kr.login(qr=True)
-kr.login(token='token')
+#kr.login(token='token')
 kr.loginResult()
 print "Kr-Login Success\n"
 
-vipro = LINETCR.LINE() #(isi dengan akun utama fungsinya biar akun utama di kick langsung di invite bot)
+vipro = LINETCR.LINE() (isi dengan akun utama fungsinya biar akun utama di kick langsung di invite bot)
 #vipro.login(qr=True)
 vipro.login(token='token')
 vipro.loginResult()
 print "Vipro-Login Success\n"
 
-km = LINETCR.LINE() #(bot ini di luar grup fungsinya jadi algojo kaya kicker siri)
+km = LINETCR.LINE() (bot ini di luar grup fungsinya jadi algojo kaya kicker siri)
 #km.login(qr=True)
 km.login(token='token')
 km.loginResult()
@@ -82,8 +82,8 @@ selfMessage ="""
 ╠➩〘Getvid @〙
 ╠➩〘Friendlist〙
 ╠═════════════════════════
-║             💠 By : Vipro 💠
-║    〽️ line.me/ti/p/~gjxvipro 〽️
+║             💠 By : PUTRS 💠
+║    〽️ line.me/ti/p/~PUTRA 〽️
 ╚═════════════════════════
 """
 
@@ -104,8 +104,8 @@ botMessage ="""
 ╠➩〘@bye (Usir Bot Utama)〙
 ╠➩〘Bye bot (Usir Semua Bot)〙
 ╠═════════════════════════
-║             💠 By : Vipro 💠
-║    〽️ line.me/ti/p/~gjxvipro 〽️
+║             💠 By : PUTRA 💠
+║    〽️ line.me/ti/p/~PUTRA 〽️
 ╚═════════════════════════
 """
 
@@ -143,8 +143,8 @@ mediaMessage ="""
 ╠➩〘Id@th Text (Translate ID Ke TH〙
 ╠➩〘En@id Text (Translate En Ke ID〙
 ╠═════════════════════════
-║             💠 By : Vipro 💠
-║    〽️ line.me/ti/p/~gjxvipro 〽️
+║             💠 By : PUTRA 💠
+║    〽️ line.me/ti/p/~PUTRA 〽️
 ╚═════════════════════════
 """
 
@@ -180,8 +180,8 @@ groupMessage ="""
 ╠➩〘Getgroup image〙
 ╠➩〘Urlgroup Image〙
 ╠═════════════════════════
-║             💠 By : Vipro 💠
-║    〽️ line.me/ti/p/~gjxvipro 〽️
+║             💠 By : PUTRA 💠
+║    〽️ line.me/ti/p/~PUTRA 〽️
 ╚═════════════════════════
 """
 vip="uda936836a9869eb86ec8ab992a4e8979"
@@ -197,8 +197,8 @@ setMessage ="""
 ╠➩〘Contact on/off〙
 ╠➩〘Simisimi on/off〙
 ╠═════════════════════════
-║             💠 By : Vipro 💠
-║    〽️ line.me/ti/p/~gjxvipro 〽️
+║             💠 By : PUTRS 💠
+║    〽️ line.me/ti/p/~PUTRA 〽️
 ╚═════════════════════════
 """
 
@@ -224,8 +224,8 @@ creatorMessage ="""
 ╠➩〘Bot restart〙
 ╠➩〘Turn off〙
 ╠═════════════════════════
-║             💠 By : Vipro 💠
-║    〽️ line.me/ti/p/~gjxvipro 〽️
+║             💠 By : PUTRA 💠
+║    〽️ line.me/ti/p/~PUTRA 〽️
 ╚═════════════════════════
 """
 
@@ -265,8 +265,8 @@ adminMessage ="""
 ╠➩〘Leave on/off〙
 ╠➩〘All join / (Vipro1/2/3/4 Join)〙
 ╠═════════════════════════
-║             💠 By : Vipro 💠
-║    〽️ line.me/ti/p/~gjxvipro 〽️
+║             💠 By : PUTRA 💠
+║    〽️ line.me/ti/p/~PUTRA 〽️
 ╚═════════════════════════
 """
 
@@ -288,8 +288,8 @@ helpMessage ="""
 ╠➩〘Speed test〙
 ╠➩〘Status〙
 ╠═════════════════════════
-║             💠 By : Vipro 💠
-║    〽️ line.me/ti/p/~gjxvipro 〽️
+║             💠 By : PUTRA 💠
+║    〽️ line.me/ti/p/~PUTRA 〽️
 ╚═════════════════════════
 """
 
@@ -304,8 +304,8 @@ protectMessage ="""
 ╠➩〘Ghost on/off〙
 ╠➩〘Invitepro on/off〙
 ╠═════════════════════════
-║             💠 By : Vipro 💠
-║    〽️ line.me/ti/p/~gjxvipro 〽️
+║             💠 By : PUTRA 💠
+║    〽️ line.me/ti/p/~PUTRA 〽️
 ╚═════════════════════════
 """
 
@@ -3731,7 +3731,7 @@ def bot(op):
                 
 
             elif msg.text.lower() in ["hi","hai","halo","hallo"]:
-                    beb = "Hi Sayang 😘 " +cl.getContact(msg.from_).displayName + " 􀸂􀆇starry heart􏿿"
+                    beb = "Hi IKUT YUK BELI BAKSO 😘 " +cl.getContact(msg.from_).displayName + " 􀸂􀆇starry heart􏿿"
                     cl.sendText(msg.to,beb)
 
 
